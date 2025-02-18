@@ -40,7 +40,8 @@ BEGIN
 
 <<pular>>
   dbms_output.put_line('Código pulado para cá!');
-END; ```
+END; 
+```
 
 ## 🔹 Estruturas de Looping no PL/SQL
 

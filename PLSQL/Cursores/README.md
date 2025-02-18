@@ -5,6 +5,7 @@ Este diretório contém scripts SQL relacionados ao **uso de cursores explícito
 ## 🔹 O que são Cursores?
 No PL/SQL, um **cursor** é um ponteiro para um conjunto de resultados de uma consulta SQL. Ele permite que os dados sejam processados **linha por linha** dentro de um bloco PL/SQL.
 
+
 Existem dois tipos principais de cursores:
 - **Cursores Explícitos** → Definidos manualmente pelo programador, oferecem maior controle sobre a recuperação de dados.
 - **Cursores Implícitos** → Criados automaticamente pelo Oracle para armazenar os resultados de uma consulta SQL simples.
@@ -17,6 +18,7 @@ Os **cursores explícitos** são declarados pelo programador e seguem quatro eta
 2. **Abertura** (`OPEN`) → Executa a consulta e prepara os registros para leitura.
 3. **Busca de Dados** (`FETCH`) → Recupera uma linha do cursor e armazena em variáveis.
 4. **Fechamento** (`CLOSE`) → Libera os recursos alocados pelo cursor.
+<img src="../../images/plsql-cursor.png">
 
 #### **Exemplo de Cursor Explícito**
 ```sql
