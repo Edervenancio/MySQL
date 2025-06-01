@@ -33,4 +33,4 @@ Esta nova tabela est√° na primeira forma normal, pois cada valor em uma tabela √
 
 
 ### Exemplo de modelo
-<img src="../../images/1NF.png">
+<img src="../../../../images/1NF.png">
